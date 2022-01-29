@@ -10,7 +10,7 @@ const app = express();
 
 var PORT = process.env.PORT || 3001;  //listen on this port 
 
-//promisify the file system built in read file 
+//promisify the file system's built in read file 
 const readFromFile = util.promisify(fs.readFile);
 
 // Middleware for parsing application/json and urlencoded data
