@@ -61,11 +61,11 @@ app.post('/api/notes', (req, res) => {
     const { title, text } = req.body;
 
     if (title && text) {
-        const noteID = uniqid.process();
+        const id = uniqid.process();
         const newNote = {
             title, 
             text,
-            noteID, //12 digit unique id 
+            id, //12 digit unique id 
         }
   
         //Read the json file to get the existing notes
