@@ -1,6 +1,26 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Test Title",
+    "text": "Test text",
+    "noteID": "17dwkyzbuix7"
+  },
+  {
+    "title": "Adding a note title",
+    "text": "May the force be with you.",
+    "noteID": "17dwkyzbw1bz"
+  },
+  {
+    "title": "Adding a note title",
+    "text": "May the force be with you.",
+    "noteID": "17dwkyzbw64i"
+  },
+  {
+    "title": "Local note ",
+    "text": "this is a local note",
+    "noteID": "17dwkyzby0ur"
+  }
 ]
